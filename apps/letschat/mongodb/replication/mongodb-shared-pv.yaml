@@ -14,5 +14,3 @@ spec:
     - ReadWriteMany
   persistentVolumeReclaimPolicy: Delete
   storageClassName: ocs-storagecluster-ceph-rbdmirror
-  volumeMode: Filesystem
-
