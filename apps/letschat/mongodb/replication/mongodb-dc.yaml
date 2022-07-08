@@ -7,5 +7,5 @@ spec:
     spec:
       serviceAccountName: mongodb-rhacm
       securityContext:
-        runAsUser: 10008927017
+        runAsUser: 1000892701
 
