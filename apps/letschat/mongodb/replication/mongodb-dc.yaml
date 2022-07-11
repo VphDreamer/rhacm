@@ -8,4 +8,4 @@ spec:
       serviceAccountName: mongodb-rhacm
       securityContext:
         runAsUser: 1000762791
-        fsGroup: 1000762791
+        fsGroup: 27917
