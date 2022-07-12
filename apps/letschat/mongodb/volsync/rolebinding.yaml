@@ -5,7 +5,7 @@ metadata:
   namespace: letschat-volsync
 subjects:
   - kind: ServiceAccount
-    name: mongodb-rhacm
+    name: mongodb-volsync
     namespace: letschat-volsync
 roleRef:
   apiGroup: rbac.authorization.k8s.io
