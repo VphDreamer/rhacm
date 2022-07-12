@@ -1,0 +1,11 @@
+kind: PersistentVolumeClaim
+apiVersion: v1
+metadata:
+  name: mongodb
+  namespace: letschat-volsync
+  labels:
+    app: letschat-db
+spec:
+  accessModes:
+    - ReadWriteOnce
+  storageClassName: vsphere-ocs

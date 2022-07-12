@@ -1,0 +1,12 @@
+kind: DeploymentConfig
+apiVersion: apps.openshift.io/v1
+metadata:
+  name: mongodb
+  namespace: letschat-volsync
+spec:
+  template:
+    spec:
+      serviceAccountName: mongodb-rhacm
+      securityContext:
+        runAsUser: 27917
+        fsGroup: 27917
