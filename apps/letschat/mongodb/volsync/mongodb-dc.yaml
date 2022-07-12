@@ -1,8 +1,8 @@
 kind: DeploymentConfig
 apiVersion: apps.openshift.io/v1
 metadata:
-  name: mongodb-v
-  namespace: letschat-volsync
+  name: mongodb
+  #namespace: letschat-volsync
 spec:
   template:
     spec:
