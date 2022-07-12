@@ -9,4 +9,4 @@ spec:
       serviceAccountName: mongodb-volsync
       securityContext:
         runAsUser: 1000712791
-        fsGroup: 1000712791
+        fsGroup: 0
