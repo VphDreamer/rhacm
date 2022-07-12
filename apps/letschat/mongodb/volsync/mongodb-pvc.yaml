@@ -1,7 +1,7 @@
 kind: PersistentVolumeClaim
 apiVersion: v1
 metadata:
-  name: mongodb
+  name: mongodb-v
   namespace: letschat-volsync
   labels:
     app: letschat-db
