@@ -5,3 +5,4 @@ metadata:
   labels:
     app: letschat-db
   name: mongodb
+  namespace: letschat-volsync
