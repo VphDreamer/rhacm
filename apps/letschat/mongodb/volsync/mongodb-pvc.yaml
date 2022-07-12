@@ -6,10 +6,4 @@ metadata:
   labels:
     app: letschat-db
 spec:
-  accessModes:
-    - ReadWriteOnce
   storageClassName: vsphere-ocs
-  resources:
-    requests:
-      storage: 1Gi
-  volumeMode: Filesystem
