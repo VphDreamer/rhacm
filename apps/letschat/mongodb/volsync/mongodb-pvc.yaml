@@ -8,4 +8,4 @@ metadata:
 spec:
   accessModes:
     - ReadWriteOnce
-  storageClassName: vsphere-ocs
+  storageClassName: ocs-storagecluster-cephfs  
