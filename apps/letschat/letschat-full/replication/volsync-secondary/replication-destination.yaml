@@ -9,5 +9,5 @@ spec:
     capacity: 1Gi
     copyMethod: Snapshot
     serviceType: ClusterIP
-    storageClassName: san
-    volumeSnapshotClassName: ibm-block-fs7200-snapshot
+    storageClassName: ocs-storagecluster-cephfs
+    volumeSnapshotClassName: ocs-storagecluster-cephfsplugin-snapclass 

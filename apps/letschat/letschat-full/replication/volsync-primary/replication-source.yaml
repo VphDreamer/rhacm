@@ -7,8 +7,8 @@ spec:
     address: volsync-rsync-dst-letschat.letschat-volsync.svc.clusterset.local.
     copyMethod: Clone
     sshKeys: volsync-rsync-dst-src-letschat
-    storageClassName: san
-    volumeSnapshotClassName: ibm-block-fs7200-snapshot
+    storageClassName: ocs-storagecluster-cephfs
+    volumeSnapshotClassName: ocs-storagecluster-cephfsplugin-snapclass 
   sourcePVC: mongodb
   trigger:
     schedule: '* * * * *'

@@ -5,4 +5,4 @@ metadata:
   labels:
     app: letschat
 spec:
-  storageClassName: san
+  storageClassName: ocs-storagecluster-cephfs  
